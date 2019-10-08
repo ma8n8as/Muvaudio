@@ -1,0 +1,140 @@
+   
+            /* a.one:link, a.one:visited {
+                background-color: white;
+                color: black;
+                border: 2px solid royalblue;
+                padding: 2px 5px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin-left: 34%;
+                margin-top: 3%;   
+            }
+            
+            a.one:hover, a.one:active {
+                background-color: royalblue;
+                color: white;
+                margin-left: 34%;
+                margin-top: 3%;
+            } */
+
+   <!-- <a href="download.php?file=Lil Nas X - Old Town Road ft. Billy Ray Cyrus.mp3">download</a> -->
+                
+                <!-- <a href="/images/myw3schoolsimage.jpg" download>
+                    <img src="/images/myw3schoolsimage.jpg" alt="W3Schools" width="104" height="142">
+                  </a> -->
+                
+                    <!-- <source src="./Lil Nas X - Old Town Road ft. Billy Ray Cyrus.mp3"> -->
+
+                        <!-- 
+                    <p>
+                        <input type="file" id="fileInput" class="Browse"/>
+                    </p>      -->
+                <!-- <input type="file" name="myFile"> -->
+                <!-- <audio controls id="myAudio" autoplay></audio> -->
+
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script> -->
+
+
+            // var $audio = $('#myAudio');
+            // $('input').on('change', function(e) {
+            //     var target = e.currentTarget;
+            //     var file = target.files[0];
+            //     var reader = new FileReader();
+            
+            //     console.log(songs[7]);
+            //     if (target.files && file) {
+            //         var reader = new FileReader();
+            //         reader.onload = function (e) {
+            //             $audio.attr('src', e.target.result);
+            //             $audio.play();
+            //         }
+            //         reader.readAsDataURL(file);
+            //     }
+            // });
+
+                // function trash() {
+                //     songs[i] = myFile;
+                // }
+            
+            // var i = 7;
+            // function showname () {
+
+            //     var s = '<div id="myDiv"></div>';
+            //     var htmlObject = document.createElement('div');
+            //     htmlObject.innerHTML = s;
+            //     //htmlObject.getElementById("myDiv").style.marginTop = something;
+
+
+            //     var name = document.getElementById('fileInput'); 
+            //     // alert('Selected file: ' + name.files.item(0).name);
+            //     // alert('Selected file: ' + name.files.item(0).size);
+            //     // alert('Selected file: ' + name.files.item(0).type);
+
+            //     songs[i] = name.files.item(0).name;
+                
+            //     var tester = [""];
+            //     var k=name.files.item(0).name.length;
+            //     for(var p=0;p<k-4;p++){
+            //     tester[p] = name.files.item(0).name[p];
+            //     }
+
+            //     title[i] = tester.join('');
+
+            //     i++;
+            //     var l = songs.length;
+            //     l=l-1;
+
+            //     // console.log(title)
+            //     // console.log(songs);
+            //     // console.log(name.files.item(0).name);
+            // };              
+
+
+            // function alpha(t) {
+            //     if (t === 0 ) {
+            //         document.getElementById('one').setAttribute("href",link);
+            //         document.getElementById('one').innerHTML = link;
+            //         //<a class="one" href="./Lil Nas X - Old Town Road ft. Billy Ray Cyrus.mp3" download>Download</a>
+            //         // Here the link is your javascript variable that contains the url.
+            //     }
+            //     if (t === 1 ) {
+            //         var link = "./Mike Posner - I Took A Pill In Ibiza (SeeB Remix).mp3";
+            //         document.getElementById('one').setAttribute("href",link);
+            //         document.getElementById('one').innerHTML = link;
+            //         // Here the link is your javascript variable that contains the url.
+            //     }
+            //     if (t === 2 ) {
+            //         var link = "./Ritviz - Udd Gaye.mp3";
+            //         document.getElementById('one').setAttribute("href",link);
+            //         document.getElementById('one').innerHTML = link;
+            //         // Here the link is your javascript variable that contains the url.
+            //     }
+            //     if (t === 3 ) {
+            //         var link = "./DJ Snake Lil Jon - Turn Down for What.mp3";
+            //         document.getElementById('one').setAttribute("href",link);
+            //         document.getElementById('one').innerHTML = link;
+            //         // Here the link is your javascript variable that contains the url.
+            //     }
+            //     if (t === 4 ) {
+            //         var link = "./The Weeknd - Starboy ft. Daft Punk.mp3";
+            //         document.getElementById('one').setAttribute("href",link);
+            //         document.getElementById('one').innerHTML = link;
+            //         // Here the link is your javascript variable that contains the url.
+            //     }
+            //     if (t === 5 ) {
+            //         var link = "./LSD - Thunderclouds ft. Sia Diplo Labrinth.mp3";
+            //         document.getElementById('one').setAttribute("href",link);
+            //         document.getElementById('one').innerHTML = link;
+            //         // Here the link is your javascript variable that contains the url.
+            //     }
+            //     if (t === 6 ) {
+            //         var link = "./The Proclaimers - Im Gonna Be (500 Miles).mp3";
+            //         document.getElementById('one').setAttribute("href",link);
+            //         document.getElementById('one').innerHTML = link;
+            //         // Here the link is your javascript variable that contains the url.
+            //     }
+
+            //     console.log(link);
+            // }
